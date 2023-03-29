@@ -1,0 +1,50 @@
+body{ background: #85057F;
+background: -moz-linear-gradient(left, #85057F 0%, #C04379 50%, #F67C72 100%);
+background: -webkit-linear-gradient(left, #85057F 0%, #C04379 50%, #F67C72 100%);
+background: linear-gradient(to right, #85057F 0%, #C04379 50%, #F67C72 100%);;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+main, footer{
+    margin-left: 20em;
+    margin-right: 20em;
+}
+
+header{
+    text-align: center;
+}
+
+#sfondo {
+    text-align: center;
+    color: #004d4d;
+    border-top: #ffd977;
+    background-color: #fefbf1;
+    padding: 0.5px;
+}
+
+#prima{
+
+    text-align: center;
+}
+
+figcaption{
+    color: #6f234a;
+}
+
+#rosso{
+    color: #d11b2b;
+    margin-bottom: 0;
+}
+
+#bordo{
+ border-left: 2px solid;
+ border-color: white;
+}
+
+form{
+    text-align: center;
+    
+
+}
