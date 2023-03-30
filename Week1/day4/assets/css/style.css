@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html,
+body {
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0.8rem;
+    background-image: url('/assets/img/sfondo.png');
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 5em;
+}
+
+
+header,
+footer {
+    text-align: center;
+    background: #0098BC;
+    background: -moz-linear-gradient(top, #0098BC 0%, #1C6EA4 54%, #04CAF8 100%);
+    background: -webkit-linear-gradient(top, #0098BC 0%, #1C6EA4 54%, #04CAF8 100%);
+    background: linear-gradient(to bottom, #0098BC 0%, #1C6EA4 54%, #04CAF8 100%);
+    color: white;
+    padding: 1em;
+}
+
+
+#header a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+#centraLista ul>li {
+    list-style-type: none;
+}
+
+
+#whitebg {
+    background-color: white;
+    padding: 1em;
+    border-bottom: solid 2px grey;
+    margin-bottom: 10px;
+}
+
+main code {
+    background-color: rgb(196, 196, 196);
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 4px;
+}
+
+#greySpan {
+    color: grey;
+}
+
+thead tr:first-child {
+    background-color: #2181C1;
+    color: white;
+    border: collapse;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(196, 196, 196);
+    border-bottom: solid 1px grey;
+    border-top: solid 1px grey;
+}
+
+table {
+    border-collapse: collapse;
+    border-bottom: 1px solid #2181C1;
+}
+
+
+table tr {
+    line-height: 2em;
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.greyBox {
+    background-color: rgb(192, 192, 192);
+    padding: 2px 8px 4px 8px;
+}
+
+input {
+    border: none;
+    border-bottom: 2px dashed grey;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    background-color: #2181C1;
+    border: none;
+
+}
+
+.greyBox a {
+    color: rgb(0, 153, 255);
+}
+
+.centerH {
+    text-align: center;
+}
+
+aside .greyBox {
+    border: 1px solid grey;
+    margin-bottom: 1em;
+}
+
+.greyBox p:last-child {
+    text-align: right;
+}
+
+address a {
+    color: fuchsia;
+}
