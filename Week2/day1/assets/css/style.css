@@ -9,7 +9,7 @@ img{
     width: 20%;
     padding: 0 auto;
 }
-a{
+a:link, a:visited{
     text-decoration-line: none;
     color: white;
     font-weight: bold;
