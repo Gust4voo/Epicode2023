@@ -1,0 +1,55 @@
+#card-sfondo{
+    background-color: #FBF7E3;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 25%;
+    object-fit: contain;
+    border-radius: 5rem;
+    padding-bottom: 25px;
+    color: #543C38;
+ 
+ }
+ #container-immagine{
+     max-width: 100%;
+   max-height: 100%;
+   object-fit: contain;
+ }
+ #immagine{
+     border-top-right-radius: 5rem;
+     border-top-left-radius: 5rem;
+     padding-bottom: 25px;
+     height: 20rem;
+ }
+ 
+ #scritte h2 {
+     line-height: 0.1em;
+     padding-left: 20px;
+     font-size: 20px;
+ }
+ #paragrafo{
+ padding-left: 20px;
+ 
+ }
+ #dollari{
+     display: flex;
+     padding-left: 200px;
+ 
+ }
+ button{
+     background-color: #F3DF85;
+     border-radius: 10px;
+     border-style: none;
+     padding: 10px;
+     padding-left: 50px;
+     padding-right: 50px;
+     color: #543C38;
+     font-size: 15px;
+ 
+ }
+ #bottone{
+     padding-left: 70px;
+     color: #543C38;
+     padding-top: 0;
+ 
+ }
