@@ -1,0 +1,67 @@
+ @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body, html{
+    height: 100%;
+    font-family: 'Indie Flower', cursive;
+    background-color: #666666;
+}
+
+#container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  #cards{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  h2{
+    font-size: 35px;
+  }
+  p{
+    font-size: 25px;
+  }
+
+  #cards div {
+    width: 260px;
+    height: 180px;
+    padding: 12px;
+    border: 1px solid black;
+    color: black;
+    transition: all 200ms linear;
+    text-align: center;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  #card-1, #card-5, #card-7{
+    background: #D8D8AC;
+    background: -moz-linear-gradient(top, #D8D8AC 0%, #D8D8AC 74%, #979797 100%);
+    background: -webkit-linear-gradient(top, #D8D8AC 0%, #D8D8AC 74%, #979797 100%);
+    background: linear-gradient(to bottom, #D8D8AC 0%, #D8D8AC 74%, #979797 100%);
+    transform: rotate(-5deg);
+  }
+
+  #card-2, #card-4, #card-8{
+    background: #B8DCBA;
+    background: -moz-linear-gradient(top, #B8DCBA 0%, #b8dcba 74%, #979797 100%);
+    background: -webkit-linear-gradient(top, #B8DCBA 0%, #b8dcba 74%, #979797 100%);
+    background: linear-gradient(to bottom, #B8DCBA 0%, #b8dcba 74%, #979797 100%);
+    transform: rotate(8deg);
+  }
+
+  #card-3, #card-6{
+    background: #B5B4D3;
+    background: -moz-linear-gradient(top, #B5B4D3 0%, #b5b4d3 74%, #979797 100%);   
+    background: -webkit-linear-gradient(top, #B5B4D3 0%, #b5b4d3 74%, #979797 100%);
+    background: linear-gradient(to bottom, #B5B4D3 0%, #b5b4d3 74%, #979797 100%);
+    transform: rotate(-7deg);
+  }
+
+  main #cards div:hover{
+    z-index: 1;
+    transform: rotate(0);
+    transform: scale(1.2)
+  }
