@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <title>Sito Web ufficiale Nike</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"/>
+    <link rel="icon" type="image/png" href="/Assets/img/Nike-Logo.png">
+    <link rel="stylesheet" href="/Assets/css/style.css">   
+
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="/Assets/img/Nike-Logo.png" alt="logo google" style="width:80px" class="ms-2"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="/backoffice.html">Back-Office</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>     
+    </header>
+  
+      
+    <main>
+      <form>
+        <div class="mb-3">
+          <label for="prodName" class="form-label">Product Name</label>
+          <input type="text" class="form-control" id="prodName" />
+        </div>
+        <div class="mb-3">
+          <label for="prodDespt" class="form-label">Description</label>
+          <input type="textarea" class="form-control" id="prodDespt" />
+        </div>
+        <div class="mb-3">
+          <label for="prodBrand" class="form-label">Brand</label>
+          <input type="text" class="form-control" id="prodBrand" />
+        </div>
+        <div class="mb-3">
+          <label for="prodImg">Image URL</label>
+          <input type="text" class="form-control" id="prodImg" />
+        </div>
+        <div class="mb-3">
+          <label for="prodPrice">Price</label>
+          <input type="number" class="form-control" id="prodPrice" />
+        </div>
+        
+          <button id="submit" type="submit" class="btn btn-primary">
+            aggiungi
+          </button>
+          <button id="backDelete" type="button" class="btn btn-danger">
+            delete
+          </button>
+      </form>
+    </main>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="/Assets/js/backoffice.js"></script>
+  </body>
+</html>

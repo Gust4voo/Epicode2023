@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <title>Sito Web ufficiale Nike</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"/>
+    <link rel="icon" type="image/png" href="/Assets/img/Nike-Logo.png">
+    <link rel="stylesheet" href="/Assets/css/style.css">   
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="/Assets/img/Nike-Logo.png" alt="logo google" style="width:80px" class="ms-2"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="/backoffice.html">Back-Office</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>     
+    </header>
+
+    <main>
+      <div class="container-fluid bg-dark text-dark pt-5" style="background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_1519,c_limit/23df92ff-5154-4eac-a689-cbc25c140a65/sito-web-ufficiale-nike.jpg);">
+          <div class="row">
+              <div class="col col-6 d-none d-md-block">
+                  <img src="/Assets/img/shoes.png" alt="shoes nike" width="75%">
+              </div>
+              <div class="col col-12 col-md-6 d-flex flex-column align-content-center justify-content-center pe-5 pb-3 pb-md-0 ps-5 ps-md-0" >
+                  <h1 class="display-2">25% DI SCONTO SU TUTTO IL SITO</h1>
+                  <p> Member Nike, usa il codice SHINE23 su una spesa minima di 50 €. Sono previste limitazioni.*</p>
+                  <hr>
+                  <div class="row"> 
+                      <div class="col col-md-8">
+                          <button type="button" class="btn btn-outline-dark">Acquista</button>
+                      </div>
+                      <div class="col col-md-4">
+                        <button type="button" class="btn btn-outline-dark">*Termini della promozione</button>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="container py-5">
+          <h2 id="store"> Scopri i prodotti disponibili</h2>
+          <div
+          class="spinner-border text-warning d-block mx-auto mb-4" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+          <div class="row" id="prodotti">
+          </div>
+      </div>
+
+      <div class="jumbotron"></div>
+
+      <section id="homeShop">
+        <div class="container">
+          <div class="row"></div>
+        </div>
+      </section>
+      
+    </main>
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="/Assets/js/index.js"></script>
+  </body>
+</html>
